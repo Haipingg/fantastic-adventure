@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sy_city">
+        <item>广州</item>
+        <item>深圳</item>
+        <item>佛山</item>
+        <item>珠海</item>
+    </string-array>
+</resources>

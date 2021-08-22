@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_item"
+        android:title="添加好友"/>
+    <item
+        android:id="@+id/remove_item"
+        android:title="删除好友"/>
+    <item
+        android:id="@+id/weather_item"
+        android:title="查看天气"/>
+    <item
+        android:id="@+id/back_item"
+        android:title="退出登录"/>
+
+</menu>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加好友"
+        android:textSize="25dp"
+        android:textColor="#D80D54"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_friendname"
+        android:hint="请输入好友姓名"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_friendphone"
+        android:hint="请输入当前用户电话"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:text="添加"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@android:drawable/ic_input_add"
+            android:background="#1DBA11"
+            android:textColor="#fff"
+            android:drawableLeft="@android:drawable/ic_input_add" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
